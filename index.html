@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup form</title>
+</head>
+<body>
+    <h2>Signup</h2>
+
+    <form action="/submit" method="POST">
+    <label for="name">full name</label>
+    <br>
+<input type="text" id="fullname" name="fullname">
+
+</br>
+
+    <label for="email">enter your e-mail</label>
+    <br>
+<input type="email" id="email" name="email">
+
+</br>
+
+<label for="gender">gender</label>
+<br>
+<select id="gender" name="gender">
+    <br>
+    <option value="male">male</option>
+    <option value="female">female</option>
+
+</select> 
+<br>
+<br>
+<label for="dob" id="dob" name="dob">dob</label>
+<br>
+<input type="date" id="dob" name="dob">
+<br><br>
+<label for="terms" id="conditions">
+    <br>
+<input type="checkbox" id="terms" names="terms">I agree to the terms and conditions</label>
+<br><br>
+<button type="submit">
+    signup
+
+</button>
+</form>
+</body>
+</html>
